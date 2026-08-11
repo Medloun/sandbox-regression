@@ -9,7 +9,7 @@
 // committez, et poussez sur main.
 
 function calculerRemiseFidelite(client) {
-  let remise = 0;
+  let remise = 1; //MFA
   if (client.anneesAnciennete >= 6) {
     remise = 0.15;
   } else if (client.anneesAnciennete >= 2) {
